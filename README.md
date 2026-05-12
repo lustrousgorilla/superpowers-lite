@@ -4,6 +4,10 @@ Superpowers Lite is a trimmed Codex plugin fork of [Superpowers](https://github.
 
 The fork source is <https://github.com/lustrousgorilla/superpowers-lite>.
 
+## Motivation
+
+The principal motivation for this fork is excluding the `superpowers` bootstrap skill, named `using-superpowers` upstream, because it forces excessive usage of token-expensive skills. Superpowers Lite keeps the concrete workflow skills available for deliberate use while removing the always-on enforcement layer.
+
 ## Included Superpowers
 
 This fork includes these Superpowers:
