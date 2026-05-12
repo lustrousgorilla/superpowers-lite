@@ -1,0 +1,18 @@
+{
+  "name": "superpowers-lite-local",
+  "description": "Local marketplace for Superpowers Lite",
+  "owner": {
+    "name": "Gabriel Arrillaga"
+  },
+  "plugins": [
+    {
+      "name": "superpowers-lite",
+      "description": "Trimmed Superpowers skill set without the always-on using-superpowers router",
+      "version": "5.1.0",
+      "source": "./",
+      "author": {
+        "name": "Jesse Vincent / Gabriel Arrillaga"
+      }
+    }
+  ]
+}

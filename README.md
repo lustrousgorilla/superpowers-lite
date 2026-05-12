@@ -61,6 +61,19 @@ Use the repository as a local Codex plugin from:
 /Users/gabriel/code/ai/plugins/superpowers-lite
 ```
 
+Use the repository as a local Claude Code plugin by adding it as a marketplace and installing the fork:
+
+```bash
+claude plugin marketplace add --scope user /Users/gabriel/code/ai/plugins/superpowers-lite
+claude plugin install --scope user superpowers-lite@superpowers-lite-local
+```
+
+If the canonical Superpowers plugin is installed, disable it separately:
+
+```bash
+claude plugin disable --scope user superpowers@claude-plugins-official
+```
+
 ## License
 
 MIT License. See [LICENSE](LICENSE).
